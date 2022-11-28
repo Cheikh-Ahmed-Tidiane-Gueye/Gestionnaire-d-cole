@@ -38,9 +38,12 @@ a, .nam{
   color: #C7C7C7;
    
 }
-.mina a:hover, .accordion-header:hover, .nam:hover
+.mina a:hover, .accordion-header:hover
 {
     background: #F0F7FF;
+    color: aqua;
+}
+.accordion-header:hover  .nam{
     color: aqua;
 }
 .mina a.active{
@@ -88,6 +91,35 @@ width: 115px;
    opacity: 0;
 }
 
+
+
+@media (min-width:1160px){
+
+
+
+    .site{
+        background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 620px;
+    width: 280px;
+    top: 10px;
+    z-index: 2;
+    /* display: none; */
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @media (max-width:867px){
 
 .site{
@@ -104,7 +136,7 @@ display: none !important;
     width: 200px;
     padding: 10px 14px;
     border-radius: 50px;
-    top: 65px;
+    top: 70px;
     z-index: 2;
     display: block !important;
 }
@@ -128,6 +160,60 @@ display: none;
 
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
 
+.aaa{
+    text-decoration: none;
+    color: gray;
+}
+.aaa:hover{
+    color: #2383C4;
+}
+.bor{
+    border: 1px solid #2383C4;
+    border-radius: 10px;
+}
+/* .bor a{
+    color: #2383C4;
+} */
+.nav-item{
+    margin-right: 10%;
+}
+.tab-content{
+    background-color: white;
+}
+thead{
+    border:0px !important;
+}
+/* .table {
+    border-bottom:0px !important;
+}
+.table th, .table td{
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+} */
+thead{
+    color: #2D9CDB;
+}
+tr span{
+    display: inline-block;
+    width: 60px;
+    height: 55px;
+}
+.img{
+    background-image: url("image/pro1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-link{
+    color: black;
+}
+.page-link:focus{
+    background-color: #2383C4;
+    color: #FFFFFF;
+}
+/* ===========top c'est parti============ */
 
 .aaa{
     text-decoration: none;
@@ -149,9 +235,38 @@ display: none;
 .tab-content{
     background-color: white;
 }
-
-
-
-
+thead{
+    border:0px !important;
+}
+/* .table {
+    border-bottom:0px !important;
+}
+.table th, .table td{
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+} */
+thead{
+    color: #2D9CDB;
+}
+tr span{
+    display: inline-block;
+    width: 60px;
+    height: 55px;
+}
+.img{
+    background-image: url("image/pro1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-link{
+    color: black;
+}
+.page-link:focus{
+    background-color: #2383C4;
+    color: #FFFFFF;
+}
 
 /* ===========top c'est parti============ */

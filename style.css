@@ -1,0 +1,41 @@
+
+.bgg1{
+    background: #2D9CDB;
+    color:white;
+}
+
+.butt1{
+    width: 170px;
+    height: 61px;
+    background: #56CCF2;
+    border-radius: 13.617px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.butt2{
+    width: 247px;
+    height: 61px;
+    background: #0073B4;
+    border-radius: 13.617px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.reff{
+    text-decoration: none;
+    color: #2D9CDB;
+}
+.cont1{
+    height: 100vh;
+
+}
+.g input:focus{
+    outline: none !important;
+    width: 100%;
+
+
+}
