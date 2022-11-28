@@ -188,6 +188,9 @@ display: none;
                                                 background-color: #2D9CDB;
                                                 border-radius: 21px;
                                             }
+                                            .blue:focus .mh4{
+                                                color: white;
+                                            }
                                             .mh4{
                                                 color: #2D9CDB;
                                             }
@@ -276,28 +279,38 @@ display: none;
                                                 color: white;
                                                 border-radius: 14px;
                                             }
+                                          
+                                            @media screen and (max-width: 779px)
+                                            {                                                                                                                        
+                                                .mah4{
+                                                  padding-left: 25%;                                             
+                                                }
+                                            }
                                             @media screen and (max-width: 1046px)
                                             {
                                                 .mama{
-                                                    width: 95%;
-                                                    height: 250px;
+                                                    width: 80%;
+                                                    height: 300px;
                                                 }
                                                 .ma{
                                                     padding-bottom: 30px;
-                                                }
-                                                .one1{
-                                                    text-align: center;
-                                                }
-                                                .print{
-                                                    float: left;
-                                                }
+                                                }                                              
+                                                .mfa{   
+                                                    width: 20px;
+                                                    height: 10px;
+                                                    color: #2D9CDB;
+                                                    font-size: 20px;                                                    
+                                                }   
+                                                                                         
                                                 .mah4{
-                                                    width: 300px;
-                                                    height: 40px;
+                                                    width: 65%;
+                                                    height: 100%;
+                                                    background-color: transparent;                                             
                                                 }
-                                                .ajoutb{
-                                                    padding-left: 55px;
+                                                .ajout{   
+                                                    background-color: transparent; 
                                                 }
+                                             
                                             }
                                             
                                             /* ------------- FIN MAMA----------- */
