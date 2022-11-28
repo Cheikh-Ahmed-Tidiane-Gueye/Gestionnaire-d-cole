@@ -1,0 +1,304 @@
+/* ===============pas touche au css deja present ============= */
+
+
+.fall {
+    z-index: 1;
+}
+.icon4{
+    Width : 20px; 
+    Height :20px;
+    
+} 
+.selection{
+    margin-top: 100px;
+}
+.flechete{
+    height: 30px;
+    width: 30px;
+    
+}
+.fall input:focus{
+    outline: none !important;
+}
+.icon5{
+height: 30px;
+width: 30px;
+}
+.fas {
+    color: blue;
+    font-size: 30px;
+    
+}
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+   
+}
+a, .nam{
+  text-decoration: none; 
+  color: #C7C7C7;
+   
+}
+.mina a:hover, .accordion-header:hover
+{
+    background: #F0F7FF;
+    color: aqua;
+}
+.accordion-header:hover  .nam{
+    color: aqua;
+}
+.mina a.active{
+    background: #F0F7FF;
+    color: aqua ;
+}
+.test a:hover, .test a.active{
+    background: #F0F7FF;
+
+}
+
+.site{
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+height: 620px;
+width: 200px;
+top: 10px;
+z-index: 2;
+/* display: none; */
+}
+
+
+/* parties  test */
+.test{
+    width: 200px;
+    padding: 10px 14px;
+    border-radius: 50px;
+   
+    z-index: 2;
+    
+}
+.CHANGED{
+    width: 250px;
+    border-radius: 50px;
+}
+
+.test .text{
+opacity: 1;
+}
+.test.close{
+width: 115px;
+}
+.test.close .text{
+   opacity: 0;
+}
+
+
+
+@media (min-width:1160px){
+
+
+
+    .site{
+        background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 620px;
+    width: 280px;
+    top: 10px;
+    z-index: 2;
+    /* display: none; */
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:867px){
+
+.site{
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+height: 620px;
+width: 250px;
+top: 10px;
+z-index: 2;
+display: none !important;
+}
+.test{
+    width: 200px;
+    padding: 10px 14px;
+    border-radius: 50px;
+    top: 70px;
+    z-index: 2;
+    display: block !important;
+}
+.flechete{
+    display: none !important;
+}
+}
+@media (max-width:450px){
+    .flechete{
+        display: block !important;
+    }
+    .yerry, .merry{
+display: none;
+    }
+    .test{
+        margin-top: 30px;
+        height: 120px !important;
+        width: 80px !important;
+    }
+}
+
+/* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
+
+
+
+
+
+/* ===========top c'est parti============ */
+
+
+
+
+
+
+
+
+                                            /* ------------- DEBUT MAMA----------- */
+                                            .mama{
+                                                box-shadow: 0px 17.6333px 26.4499px rgba(0, 0, 0, 0.06), 0px 2.20416px 6.61248px rgba(0, 0, 0, 0.04), 0px 0px 1.10208px rgba(0, 0, 0, 0.04);
+                                                border-radius: 21px;
+                                                height: 400px;
+                                                width: 350px;
+                                            }
+                                            .blue{
+                                                text-decoration: none;
+                                            }
+                                            .blue:focus{
+                                                background-color: #2D9CDB;
+                                                border-radius: 21px;
+                                            }
+                                            .mh4{
+                                                color: #2D9CDB;
+                                            }
+                                            .ajout{   
+                                                background-color: #2D9CDB;
+                                                border-radius: 50px;
+                                                align-items: center;
+                                            }
+                                            .download{
+                                                position: relative;
+                                                border-top-left-radius: 14px;
+                                                border-top-right-radius: 14px;
+                                            }
+                                            .down{
+                                                position: absolute;
+                                                left: 90%;
+                                                top: 5%;
+                                                width: 5%;
+                                                height: 7%;
+                                            }
+                                            .mfa{   
+                                                width: 30px;
+                                                height: 10px;
+                                                color: white;
+                                                font-size: 16px;
+                                            }
+                                            .mah4{
+                                                background-color: white;
+                                                border-radius: 50px;
+                                                width: 200px;
+                                                height: 40px;
+                                            }
+                                            .two{
+                                                background-color: white;
+                                            }
+                                            .contwo{
+                                                padding-top: 20px;
+                                                padding-bottom: 20px;
+                                            }
+                                            .mnl, .mnh6{
+                                                text-decoration: none;
+                                                color: #535461;
+                                                font-size: 14px;
+                                            }
+                                            
+                                            .gdg{
+                                                box-shadow: 0px 17.6333px 26.4499px rgba(0, 0, 0, 0.06), 0px 2.20416px 6.61248px rgba(0, 0, 0, 0.04), 0px 0px 1.10208px rgba(0, 0, 0, 0.04);
+                                            }
+                                            form{
+                                                background-color: white;
+                                                color:  #4F4F4F;
+                                                font-size: 20px;
+                                                font-weight: bold;
+                                            }
+                                            .h21{
+                                                color: white;
+                                                background-color: #2383C4;
+                                                font-size: 25px;
+                                            }
+                                            .h22{
+                                                color: #2383C4;
+                                                padding-left: 20px;
+                                            }
+                                            #niveau, #genre, .winput{
+                                                height: 50px;
+                                                box-shadow: 0px 17.6333px 26.4499px rgba(0, 0, 0, 0.06), 0px 2.20416px 6.61248px rgba(0, 0, 0, 0.04), 0px 0px 1.10208px rgba(0, 0, 0, 0.04);
+                                                border-radius: 3px;
+                                            }
+                                            #niveau, #genre, .winput{
+                                                border-top: 2px solid black;
+                                                border-left: 2px solid black;
+                                            }
+                                            #niveau, #genre, .winput{
+                                                border-bottom: 1px solid rgb(46, 46, 46);
+                                                border-right: 1px solid rgb(46, 46, 46);
+                                            }
+                                            span{
+                                                color: red;
+                                                font-weight: bolder;
+                                            }
+                                            .bouton{
+                                                background-color: #56CCF2;
+                                                width: 45%;
+                                                height: 50px;
+                                                border: none;
+                                                color: white;
+                                                border-radius: 14px;
+                                            }
+                                            @media screen and (max-width: 1046px)
+                                            {
+                                                .mama{
+                                                    width: 95%;
+                                                    height: 250px;
+                                                }
+                                                .ma{
+                                                    padding-bottom: 30px;
+                                                }
+                                                .one1{
+                                                    text-align: center;
+                                                }
+                                                .print{
+                                                    float: left;
+                                                }
+                                                .mah4{
+                                                    width: 300px;
+                                                    height: 40px;
+                                                }
+                                                .ajoutb{
+                                                    padding-left: 55px;
+                                                }
+                                            }
+                                            
+                                            /* ------------- FIN MAMA----------- */
+
