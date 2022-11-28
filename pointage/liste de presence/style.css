@@ -133,3 +133,33 @@ display: none;
 
 
 /* ===========top c'est parti============ */
+/*----------------partie saliou-----------------*/
+tr td{
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: none;
+    width: 30px;
+}
+th{
+    text-decoration: none;
+    border: none;
+    width: 40px;
+}
+.for{
+    width: 80%;
+}
+.for .put{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    
+}
+.cap-img{
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 1px;
+}
+.fa{
+    width: 15px;
+}
+/*---------fin partie saliou----------*/
