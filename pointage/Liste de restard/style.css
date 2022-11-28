@@ -128,6 +128,7 @@ display: none;
 
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
 
+
 .aaa{
     text-decoration: none;
     color: gray;
@@ -148,37 +149,9 @@ display: none;
 .tab-content{
     background-color: white;
 }
-thead{
-    border:0px !important;
-}
-/* .table {
-    border-bottom:0px !important;
-}
-.table th, .table td{
-    border: 1px !important;
-}
-.fixed-table-container {
-    border:0px !important;
-} */
-thead{
-    color: #2D9CDB;
-}
-tr span{
-    display: inline-block;
-    width: 60px;
-    height: 55px;
-}
-.img{
-    background-image: url("image/pro1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.page-link{
-    color: black;
-}
-.page-link:focus{
-    background-color: #2383C4;
-    color: #FFFFFF;
-}
+
+
+
+
+
 /* ===========top c'est parti============ */
