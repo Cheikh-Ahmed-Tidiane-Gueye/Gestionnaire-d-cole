@@ -131,5 +131,53 @@ display: none;
 
 
 
-
 /* ===========top c'est parti============ */
+
+/*-------Sarifou----------*/
+
+.francais{
+    position: relative;
+}
+.play{
+    position: absolute;
+    right: 19px;
+    bottom: 33px;
+}
+.telecharge{
+    position: absolute;
+    top: 15px;
+    right: 19px;
+}
+
+.pc{
+    position: relative;
+}
+.card{
+    width: 85%;
+    background-color: #f2f1f1;
+    border-radius: 15px;
+
+}
+.card-title{
+    font-weight:normal;
+}
+.imgPC{
+    background-image: url('image/pc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    border: none;
+}
+
+
+@media (max-width:800px){
+    .card{
+        width: 97%;
+    }
+    .cours{
+        text-align: center;
+    }
+    .imprime{
+        text-align: center;
+    }
+}
