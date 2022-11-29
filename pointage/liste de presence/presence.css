@@ -298,5 +298,7 @@ tr span{
 .barre a{
     color: #2383C4;
 }
-
+.mntoggler{
+    float: left;
+}
 /* ===========top c'est parti============ */
