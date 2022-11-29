@@ -214,6 +214,9 @@ tr span{
 .aaa:hover{
     color: #2383C4;
 }
+/* .navbar-nav a:focus{
+    color: #2383C4;
+} */
 .bor{
     border: 1px solid #2383C4;
     border-radius: 10px;
