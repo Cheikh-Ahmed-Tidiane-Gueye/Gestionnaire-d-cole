@@ -30,8 +30,9 @@ width: 30px;
     
 }
 body{
-    background: #F5F5F5;
+    background: #FBFCFE;
    
+    overflow-x: hidden;
 }
 a, .nam{
   text-decoration: none; 
