@@ -9,12 +9,6 @@
     Height :20px;
     
 } 
-.tri{
-    background-image: url('./image/people.png');
-    background-position: 90% 90%;
-    background-repeat: no-repeat;
-    background-size: 50px;
-}
 .selection{
     margin-top: 100px;
 }
@@ -36,7 +30,7 @@ width: 30px;
     
 }
 body{
-    background: #FBFCFE;
+    background: #F5F5F5;
    
 }
 a, .nam{
@@ -96,26 +90,6 @@ width: 115px;
 .test.close .text{
    opacity: 0;
 }
-.vegeta{
-    background-image: url('./image/LS.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* width: 265.43px;
-height: 180.17px !important; */
-border-radius: 26px;
-}
-.trunk p{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #AEAEAE;
-}
 
 
 
@@ -170,7 +144,7 @@ display: none !important;
     display: none !important;
 }
 }
-@media (max-width:575px){
+@media (max-width:450px){
     .flechete{
         display: block !important;
     }
@@ -181,13 +155,118 @@ display: none;
         margin-top: 30px;
         height: 120px !important;
         width: 80px !important;
-        background-color: transparent !important;
     }
 }
+
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
 
+.aaa{
+    text-decoration: none;
+    color: gray;
+}
+.aaa:hover{
+    color: #2383C4;
+}
+.bor{
+    border: 1px solid #2383C4;
+    border-radius: 10px;
+}
+/* .bor a{
+    color: #2383C4;
+} */
+.nav-item{
+    margin-right: 10%;
+}
+.tab-content{
+    background-color: white;
+}
+thead{
+    border:0px !important;
+}
 
+thead{
+    color: #2D9CDB;
+}
+tr span{
+    display: inline-block;
+    width: 60px;
+    height: 55px;
+}
+.img{
+    background-image: url("image/pro1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-link{
+    color: black;
+}
+.page-link:focus{
+    background-color: #2383C4;
+    color: #FFFFFF;
+}
+/* ===========top c'est parti============ */
 
+.aaa{
+    text-decoration: none;
+    color: gray;
+}
+.aaa:hover{
+    color: #2383C4;
+}
+.bor{
+    border: 1px solid #2383C4;
+    border-radius: 10px;
+}
+/* .bor a{
+    color: #2383C4;
+} */
+.nav-item{
+    margin-right: 10%;
+}
+.tab-content{
+    background-color: white;
+}
+thead{
+    border:0px !important;
+}
+/* .table {
+    border-bottom:0px !important;
+}
+.table th, .table td{
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+} */
+thead{
+    color: #2D9CDB;
+}
+tr span{
+    display: inline-block;
+    width: 60px;
+    height: 55px;
+}
+.img{
+    background-image: url("image/pro1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-link{
+    color: black;
+}
+.page-link:focus{
+    background-color: #2383C4;
+    color: #FFFFFF;
+}
+.barre{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.barre a{
+    color: #2383C4;
+}
 
 /* ===========top c'est parti============ */

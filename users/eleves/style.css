@@ -9,12 +9,6 @@
     Height :20px;
     
 } 
-.tri{
-    background-image: url('./image/people.png');
-    background-position: 90% 90%;
-    background-repeat: no-repeat;
-    background-size: 50px;
-}
 .selection{
     margin-top: 100px;
 }
@@ -36,7 +30,7 @@ width: 30px;
     
 }
 body{
-    background: #FBFCFE;
+    background: #F5F5F5;
    
 }
 a, .nam{
@@ -44,12 +38,9 @@ a, .nam{
   color: #C7C7C7;
    
 }
-.mina a:hover, .accordion-header:hover
+.mina a:hover, .accordion-header:hover, .nam:hover
 {
     background: #F0F7FF;
-    color: aqua;
-}
-.accordion-header:hover  .nam{
     color: aqua;
 }
 .mina a.active{
@@ -96,55 +87,6 @@ width: 115px;
 .test.close .text{
    opacity: 0;
 }
-.vegeta{
-    background-image: url('./image/LS.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* width: 265.43px;
-height: 180.17px !important; */
-border-radius: 26px;
-}
-.trunk p{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #AEAEAE;
-}
-
-
-
-@media (min-width:1160px){
-
-
-
-    .site{
-        background: #FFFFFF;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
-    height: 620px;
-    width: 280px;
-    top: 10px;
-    z-index: 2;
-    /* display: none; */
-    }
-
-
-
-
-}
-
-
-
-
-
-
-
 
 @media (max-width:867px){
 
@@ -162,7 +104,7 @@ display: none !important;
     width: 200px;
     padding: 10px 14px;
     border-radius: 50px;
-    top: 70px;
+    top: 65px;
     z-index: 2;
     display: block !important;
 }
@@ -170,7 +112,7 @@ display: none !important;
     display: none !important;
 }
 }
-@media (max-width:575px){
+@media (max-width:450px){
     .flechete{
         display: block !important;
     }
@@ -181,9 +123,9 @@ display: none;
         margin-top: 30px;
         height: 120px !important;
         width: 80px !important;
-        background-color: transparent !important;
     }
 }
+
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
 
 
