@@ -38,6 +38,7 @@ width: 30px;
 body{
     background: #FBFCFE;
    
+    overflow-x: hidden;
 }
 a, .nam{
   text-decoration: none; 
