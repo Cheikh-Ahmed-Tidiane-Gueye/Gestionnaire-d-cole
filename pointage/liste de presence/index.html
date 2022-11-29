@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
         integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="presence.css">
     </head>
     <body >  
 
@@ -181,7 +181,7 @@
                           </div>
                     </div>
                     
-                    <div class="container d-none d-md-block pt-5 py-3 bg-white position-fixed site">
+                    <div class="container d-none d-md-block px-2 pt-5 py-3 bg-white position-fixed site">
                         <div class="row mx-auto">
                                 
                                 
@@ -189,8 +189,8 @@
                                
                               
                                 
-                            <div class="col-12 mina ps-4">
-                                <div class="dash d-flex mb-3 ">
+                            <div class="col-12 mina ">
+                                <div class="dash d-flex  mb-3 ">
                                   <a href="" class="d-flex align-items-center baba p-2 w-100  ">
                                     <img src="./image/icon4.png" alt="photo" class="icon4 img-fluid ">
                                     <p class=" ms-4 mb-0">Dashboars</p>
@@ -202,10 +202,10 @@
                                     <div class="accordion p-2 w-100 " id="accordionExample">
                                         
                                         <div class="accordion-item bg-transparent   border-0">
-                                          <h5 class="accordion-header  " id="headingTwo">
-                                            <button class=" collapsed border-0 bg-transparent w-100 d-flex px-0  justify-content-between align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          <h5 class="accordion-header  p-1 w-100 " id="headingTwo">
+                                            <button class=" collapsed border-0 bg-transparent w-100 d-flex px-0   justify-content align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                               <img src="./image/icon0.png" alt="photo" class="icon4 img-fluid ">
-                                              <p class="mb-0 nam ">Users</p>
+                                              <p class="mb-0 nam ms-4  me-5">Users</p>
                                               <img src="./image/icon6.png" class="img-fluid " alt="">
                                             </button>
                                           </h5>
@@ -255,188 +255,734 @@
                      <!-- Enlevez juste le lorem ipsum et mettez y les travaux effectués s'il ya un probleme suis disponible -->
 
 
-                <div class="col-9 offset-1 selection py-5">
-                  <div class="container-fluid shadow-sm">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-12 pt-4">
-                          <div class="mx-3 g-5 mb-4">
-                            <form action="post" class="for d-flex gap-5">
-                              <input class="put" type="text" placeholder="Entrer un Nom">
-                              <input class="put" type="phone" placeholder="Entrer un Numero">
-                              <input class="put" type="date" placeholder="Entrer un Date">
-                              <input class="put" type="text" placeholder="Entrer un Statut">
-                              <input class="put" type="text" placeholder="Entrer un Statut">
-                            </form>
+
+
+            <div class="col-9 offset-1 selection py-0 ">
+                  <div class="container bg-light">
+                    <div class="row bg-light">
+                        <nav class="navbar navbar-expand-lg bg-light">
+                          <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                              <div class="navbar-nav">
+                                <a class="aaa nav-link me-5 active" aria-current="page" href="../liste de presence/index.html">Liste de presence</a>
+                                <a class="aaa nav-link me-5" href="../Liste d'absence/index.html">Liste d'absence</a>
+                                <a class="aaa nav-link me-5" href="../Liste de restard/index.html">Liste de retard</a>
+                              </div>
+                            </div>
                           </div>
+                        </nav>
+                    </div>
+                    <!--  -->
+                    <div class="row">
+                      <div class="col-md-9">
+                        <nav class="nav nav-pills text-sm-center flex-column flex-sm-row">
+                          <a class="nav-link active me-2 bor col-md-2" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#All" type="button" role="tab" aria-controls="All" aria-selected="true">All</a>
+                          <a class="nav-link  me-2 bor col-md-2"       id="pills-Award-tab" data-bs-toggle="pill" data-bs-target="#Eléve" type="button" role="tab" aria-controls="Eléve" aria-selected="false">Eléve</a>
+                          <a class="nav-link  me-2 bor col-md-2"       id="pills-experiance-tab" data-bs-toggle="pill" data-bs-target="#Professeurs" type="button" role="tab" aria-controls="Professeurs" aria-selected="false">Professeurs</a>
+                          <a class="nav-link  me-2 bor col-md-2"       id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#Personnels" type="button" role="tab" aria-controls="Personnels" aria-selected="false">Personnels</a>
+                        </nav>
+                      </div>
+                      <div class="col-md-3 d-flex justify-content-end  pt-4 pb-0">
+                          <a href="#" class="btn btn-info mb-4"><img src="image/Vector.png" alt=""> Export to CVG</a>
                       </div>
                     </div>
-                    <table class="table table-striped table-borderless table-liness caption-top">
-                      <thead>
-                        <tr class="text-primary mb-5">
-                          <th scope="col">Profil</th>
-                          <th scope="col">Nom & prenom</th>
-                          <th scope="col">Numero de telephone</th>
-                          <th scope="col">Dates</th>
-                          <th scope="col">Heure d'arriver</th>
-                          <th scope="col">Statut</th>
-                          <th scope="col">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">
-                              <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                            </th>
-                              <td>moustapha ndiaye</td>
-                              <td>772000000</td>
-                              <td>26/11/2022</td>
-                              <td>08:05</td>
-                              <td>etudient</td>
-                              <td>
-                                  <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                              </th>
-                              <td>mor mbaye</td>
-                              <td>772000000</td>
-                              <td>26/11/2022</td>
-                              <td>08:05</td>
-                              <td>etudient</td>
-                              <td>
-                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                              <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                              <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                            </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                              </th>
-                              <td>sadikh gueye</td>
-                              <td>772000000</td>
-                              <td>26/11/2022</td>
-                              <td>08:05</td>
-                              <td>etudient</td>
-                              <td>
-                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                              <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                              <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                            </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                              </th>
-                              <td>madiaye ndiaye</td>
-                              <td>772000000</td>
-                              <td>26/11/2022</td>
-                              <td>08:05</td>
-                              <td>etudient</td>
-                              <td>
-                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                              <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                              <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                            </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                              </th>
-                              <td>massaer ndao</td>
-                              <td>772000000</td>
-                              <td>26/11/2022</td>
-                              <td>08:05</td>
-                              <td>etudient</td>
-                              <td>
-                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                              <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                              <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                            </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                              </th>
-                                <td>mouhamed faye</td>
-                                <td>772000000</td>
-                                <td>26/11/2022</td>
-                                <td>08:05</td>
-                                <td>etudient</td>
-                                <td>
-                                  <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                              </td>
+                    
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="pills-All-tab">
+                        <div class="container" style="overflow-x:scroll">
+                          <div class="row justify-content-center">
+                            <div class="col-md-10  d-flex ">
+                              <tr class="form-outline">
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un nom"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un mail"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un numero"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un addresse"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un filière"></th>
                               </tr>
+                            </div>
+                          </div>
+                          <table class="table table-borderless">
+                            <thead>
                               <tr>
-                                <th scope="row">
-                                  <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                                </th>
-                                  <td>rassoul samb</td>
-                                  <td>772000000</td>
-                                  <td>26/11/2022</td>
-                                  <td>08:05</td>
-                                  <td>etudient</td>
-                                  <td>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                  <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                  <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                <th>Profil</th>
+                                <th>Nom</th>
+                                <th>Numéro de télephone</th>
+                                <th>Date</th>
+                                <th>Heure d'arriver</th>
+                                <th>Statut</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="px-0">
+                                <td><span class="img"></span></td>
+                                <td>Remy Mendy</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
                                 </td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">
-                                    <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                                  </th>
-                                    <td>mor ndiaye</td>
-                                    <td>772000000</td>
-                                    <td>26/11/2022</td>
-                                    <td>08:05</td>
-                                    <td>etudient</td>
-                                    <td>
-                                      <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                                  </td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">
-                                      <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                                    </th>
-                                      <td>mor ndiaye</td>
-                                      <td>772000000</td>
-                                      <td>26/11/2022</td>
-                                      <td>08:05</td>
-                                      <td>etudient</td>
-                                      <td>
-                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                      <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                      <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">
-                                        <img src="image/Rectangle 62(1).png" class="cap-img img-fluid rounded-circle" alt="">
-                                      </th>
-                                        <td>mor ndiaye</td>
-                                        <td>772000000</td>
-                                        <td>26/11/2022</td>
-                                        <td>08:05</td>
-                                        <td>etudient</td>
-                                        <td>
-                                          <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                        <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                                      </td>
-                                      </tr>
-                                </tbody>
-                  </table>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class=""style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                          </table>
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/Previous.png" alt=""></a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">1</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">2</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">3</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">4</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">5</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/next.png" alt=""></a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="Eléve" role="tabpanel" aria-labelledby="pills-Eléve-tab">
+                        <div class="container" style="overflow-x:scroll">
+                          <div class="row justify-content-center">
+                            <div class="col-md-10  d-flex ">
+                              <tr class="form-outline">
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un nom"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un mail"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un numero"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un addresse"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un filière"></th>
+                              </tr>
+                            </div>
+                          </div>
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th>Profil</th>
+                                <th>Nom</th>
+                                <th>Numéro de télephone</th>
+                                <th>Date</th>
+                                <th>Heure d'arriver</th>
+                                <th>Statut</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="px-0">
+                                <td><span class="img"></span></td>
+                                <td>Remy Mendy</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class=""style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                          </table>
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/Previous.png" alt=""></a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">1</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">2</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">3</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">4</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">5</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/next.png" alt=""></a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="Professeurs" role="tabpanel" aria-labelledby="pills-Professeurs-tab">
+                        <div class="container" style="overflow-x:scroll">
+                          <div class="row justify-content-center">
+                            <div class="col-md-10  d-flex ">
+                              <tr class="form-outline">
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un nom"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un mail"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un numero"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un addresse"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un filière"></th>
+                              </tr>
+                            </div>
+                          </div>
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th>Profil</th>
+                                <th>Nom</th>
+                                <th>Numéro de télephone</th>
+                                <th>Date</th>
+                                <th>Heure d'arriver</th>
+                                <th>Statut</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="px-0">
+                                <td><span class="img"></span></td>
+                                <td>Remy Mendy</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class=""style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                          </table>
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/Previous.png" alt=""></a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">1</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">2</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">3</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">4</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">5</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/next.png" alt=""></a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="Personnels" role="tabpanel" aria-labelledby="pills-Personnels-tab">
+                        <div class="container" style="overflow-x:scroll">
+                          <div class="row justify-content-center">
+                            <div class="col-md-10  d-flex ">
+                              <tr class="form-outline">
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un nom"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un mail"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un numero"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un addresse"></th>
+                                <th><input type="text" id="typeText" class="form-control my-3 mx-2" placeholder="Entrer un filière"></th>
+                              </tr>
+                            </div>
+                          </div>
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th>Profil</th>
+                                <th>Nom</th>
+                                <th>Numéro de télephone</th>
+                                <th>Date</th>
+                                <th>Heure d'arriver</th>
+                                <th>Statut</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="px-0">
+                                <td><span class="img"></span></td>
+                                <td>Remy Mendy</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="" style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class="">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                              <tr class=""style="background-color: #FBFDFF;">
+                                <td><span class="img"></span></td>
+                                <td>Nom</td>
+                                <td>+221 78 700 00 00</td>
+                                <td>Date</th>
+                                <td>Heure d'arriver</td>
+                                <td>Statut</td>
+                                <td>
+                                  <i class="fa-solid fa-eye"></i>
+                                  <i class="fa-solid fa-pencil"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                              </tr>
+                          </table>
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/Previous.png" alt=""></a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">1</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">2</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">3</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">4</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#">5</a></li>
+                              <li class="page-item me-1"><a class="page-link rounded px-3" href="#"><img src="image/next.png" alt=""></a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+            
+                   
+    
+       
+    
+
+
+
+
 
 
         <!-- Optional JavaScript -->
