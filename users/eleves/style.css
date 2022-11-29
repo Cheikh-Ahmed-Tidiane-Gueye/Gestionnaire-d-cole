@@ -113,6 +113,8 @@ display: none !important;
 }
 }
 @media (max-width:450px){
+
+    
     .flechete{
         display: block !important;
     }
@@ -133,3 +135,124 @@ display: none;
 
 
 /* ===========top c'est parti============ */
+input{
+    height: 128%;
+}
+
+.NM{
+    margin-left: -80%;
+    color: darkblue;
+    
+}
+tr{
+border: #F0F7FF;
+    
+}
+.NI{
+    margin-left: 20%;
+    color: darkblue;
+
+}
+.NII{ color: darkblue;
+
+}
+.ion:hover{
+    background-color: rgb(83, 83, 254);
+    
+
+}
+#aq{
+   width: 50%;
+    height: 40px;
+    margin-left: 40%;
+}
+#QS{
+    width: 50%;
+    height: 40px;
+    margin-left: 60%;
+}
+#PL{
+    width: 50%;
+    height: 40px;
+    margin-left: 40%;
+}
+#PK{
+    width: 50%;
+    height: 40px;
+    margin-left: -4%;
+}
+
+.Na{
+    margin-left: -80%;
+}
+.NN{
+    margin-left: -80%;
+}
+@media (max-width:1000px){
+    .NN{
+        margin-left: -1%;
+    }
+    .NI{
+        margin-left: 0%;
+
+    
+    }
+    
+.ion{
+    width: 10px;
+}
+.d{
+    font-size: 52%;
+}
+ }
+ @media (max-width:770px){
+    
+  
+.table{width: 100%;}
+.d{
+    font-size: 72%;
+}
+.NI{
+    margin-left: 0%;
+    font-size: 80%;
+    
+
+}
+.NM{
+    font-size: 72%;
+    margin-left: -20%;
+
+}
+.NN{
+    font-size: 80%;
+}
+.form-control{
+    width: 20%;
+}
+.CV{
+    width: 300%;
+}
+.FF{
+    width: 250%;
+}
+#aq{
+    width: 7Z0%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #QS{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #PL{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #PK{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ }
