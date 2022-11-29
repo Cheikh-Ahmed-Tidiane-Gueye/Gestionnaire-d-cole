@@ -183,15 +183,7 @@ display: none;
 thead{
     border:0px !important;
 }
-/* .table {
-    border-bottom:0px !important;
-}
-.table th, .table td{
-    border: 1px !important;
-}
-.fixed-table-container {
-    border:0px !important;
-} */
+
 thead{
     color: #2D9CDB;
 }
@@ -268,5 +260,12 @@ tr span{
     background-color: #2383C4;
     color: #FFFFFF;
 }
+.barre{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.barre a{
+    color: #2383C4;
+}
 /* ===========top c'est parti============ */
