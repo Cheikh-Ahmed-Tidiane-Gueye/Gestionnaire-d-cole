@@ -158,6 +158,11 @@ display: none;
         width: 80px !important;
         background-color: transparent !important;
     }
+    .test.close{
+       
+        margin-top: 550px;
+       
+     }
 }
 
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
