@@ -282,11 +282,18 @@ display: none;
                                                 border-radius: 14px;
                                             }
                                           
-                                            @media screen and (max-width: 1090px)
+                                            @media screen and (max-width: 460px)
                                             {                                                                                                                        
-                                                .mama{
-                                                    width: 200px;
-                                                    height: 200px;
+                                                .lien{
+                                                    width: 100%;
+                                                    display: flex;
+                                                    flex-direction: row;                                              
+                                                }
+                                                .lien a{
+                                                    width: 36%;                                                    
+                                                }
+                                                .lien .play{
+                                                    width: 14%;                                                    
                                                 }
                                             }
                                             @media screen and (max-width: 1046px)
@@ -305,6 +312,7 @@ display: none;
                                             }
                                                 .ma{
                                                     padding-bottom: 30px;
+                                                    width: 100%;
                                                 }                                              
                                                 .mfa{   
                                                     width: 20px;
@@ -329,8 +337,7 @@ display: none;
                                                 }
                                                 .ajout{   
                                                     background-color: transparent; 
-                                                }
-                                           
+                                                }                                                                                          
                                             } 
                                             
                                             /* ------------- FIN MAMA----------- */
