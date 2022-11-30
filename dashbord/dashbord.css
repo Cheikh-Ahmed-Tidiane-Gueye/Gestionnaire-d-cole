@@ -116,8 +116,45 @@ line-height: 17px;
 
 color: #AEAEAE;
 }
-
-
+.tittle h4{
+    
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+.counting p{
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 45px;
+}
+.nb h4{
+    color: #197BBD;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 31.5503px;
+line-height: 38px;
+}
+.nc h4{
+    color: #439A86;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+.nd h4{
+    color: #BB4430;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
 
 @media (min-width:1160px){
 
@@ -220,3 +257,83 @@ display: none;
     
 }
 /*---------fin partie saliou----------*/
+
+
+
+
+.entet{
+    color:  #2D9CDB;
+}
+td p, .align2{
+    padding-top: 10px;
+}
+.cub:hover{
+    color: #56CCF2;
+}
+.cuba:hover{
+    color: red;
+}
+.cub i, .cuba i{
+    opacity: 0.4;
+}
+.pb{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.btnn{
+    background-color:  #56CCF2;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+.proff{
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 61px;
+     background: #56CCF2;
+    color: white;
+}
+/*----------Alassane Sane-------------*/
+
+.buttonA{
+    margin-left:320px
+  }
+  .buttonB{
+    position: relative;
+    left:150px
+  }
+  label>span,p>span{
+    font-size:15px ;color: red;
+  }
+  img.rounded-circle{width: 45px; height: 45px}
+  select.selectA, input.prenom, input.nom,input.date {
+    width: 300px;
+  }
+  input.inpute{
+    width: 115px
+  }
+  a>i{
+    text-decoration: none;
+  }
+ 
+  .reseau:hover{
+    color: red;
+  }
+  /* a.fa-eye:hover, a.fa-pen:hover, a.fa-box-archive:hover{
+  color:rgb(0, 106, 255);
+  }
+  a.fa-trash:hover{
+    color:rgb(238, 37, 37);
+    } */
+  
+  @media screen and (max-width:991px) {
+    .buttonA{
+        position: relative;
+        right:300px;
+    }
+  
+  }
+  tr:nth-child(odd){background-color:  #FBFDFF;}
+  /*----------Fin Alassane Sane-------------*/
