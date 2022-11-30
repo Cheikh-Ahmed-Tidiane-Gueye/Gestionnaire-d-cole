@@ -1,0 +1,295 @@
+/* ===============pas touche au css deja present ============= */
+
+
+.fall {
+    z-index: 1;
+}
+.icon4{
+    Width : 20px;
+    Height :20px;
+    
+} 
+.selection{
+    margin-top: 100px;
+}
+.flechete{
+    height: 30px;
+    width: 30px;
+    
+}
+.fall input:focus{
+    outline: none !important;
+}
+.icon5{
+height: 30px;
+width: 30px;
+}
+.fas {
+    color: blue;
+    font-size: 30px;
+    
+}
+body{
+    background: #FBFCFE;
+   
+    overflow-x: hidden;
+}
+a, .nam{
+  text-decoration: none; 
+  color: #C7C7C7;
+   
+}
+.mina a:hover, .accordion-header:hover
+{
+    background: #F0F7FF;
+    color: aqua;
+}
+.accordion-header:hover  .nam{
+    color: aqua;
+}
+.mina a.active{
+    background: #F0F7FF;
+    color: aqua ;
+}
+.test a:hover, .test a.active{
+    background: #F0F7FF;
+
+}
+
+.site{
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+height: 620px;
+width: 200px;
+top: 10px;
+z-index: 2;
+/* display: none; */
+}
+
+
+/* parties  test */
+.test{
+    width: 200px;
+    padding: 10px 14px;
+    border-radius: 50px;
+   
+    z-index: 2;
+    
+}
+.CHANGED{
+    width: 250px;
+    border-radius: 50px;
+}
+
+.test .text{
+opacity: 1;
+}
+.test.close{
+width: 115px;
+}
+.test.close .text{
+   opacity: 0;
+}
+
+
+
+@media (min-width:1160px){
+
+
+
+    .site{
+        background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 620px;
+    width: 280px;
+    top: 10px;
+    z-index: 2;
+    /* display: none; */
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:867px){
+
+.site{
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+height: 620px;
+width: 250px;
+top: 10px;
+z-index: 2;
+display: none !important;
+}
+.test{
+    width: 200px;
+    padding: 10px 14px;
+    border-radius: 50px;
+    top: 70px;
+    z-index: 2;
+    display: block !important;
+}
+.flechete{
+    display: none !important;
+}
+}
+@media (max-width:575px){
+    .flechete{
+        display: block !important;
+    }
+    .yerry, .merry{
+display: none;
+    }
+    .test{
+        margin-top: 30px;
+        height: 120px !important;
+        width: 80px !important;
+        background-color: transparent !important;
+    }
+    .test.close{
+       
+        margin-top: 550px;
+       
+     }
+}
+
+/* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
+
+
+
+
+
+/* ===========top c'est parti============ */
+input{
+    height: 128%;
+}
+
+.NM{
+    margin-left: -80%;
+    color: darkblue;
+    
+}
+tr{
+border: #F0F7FF;
+    
+}
+.NI{
+    margin-left: 20%;
+    color: darkblue;
+
+}
+.NII{ color: darkblue;
+
+}
+.ion:hover{
+    background-color: rgb(83, 83, 254);
+    
+
+}
+#aq{
+   width: 50%;
+    height: 40px;
+    margin-left: 40%;
+}
+#QS{
+    width: 50%;
+    height: 40px;
+    margin-left: 60%;
+}
+#PL{
+    width: 50%;
+    height: 40px;
+    margin-left: 40%;
+}
+#PK{
+    width: 50%;
+    height: 40px;
+    margin-left: -4%;
+}
+
+.Na{
+    margin-left: -80%;
+}
+.NN{
+    margin-left: -80%;
+}
+@media (max-width:1000px){
+    .NN{
+        margin-left: -1%;
+    }
+    .NI{
+        margin-left: 0%;
+
+    
+    }
+    
+.ion{
+    width: 10px;
+}
+.d{
+    font-size: 52%;
+}
+ }
+ @media (max-width:770px){
+    
+  
+.table{width: 100%;}
+.d{
+    font-size: 72%;
+}
+.NI{
+    margin-left: 0%;
+    font-size: 80%;
+    
+
+}
+.NM{
+    font-size: 72%;
+    margin-left: -20%;
+
+}
+.NN{
+    font-size: 80%;
+}
+.form-control{
+    width: 20%;
+}
+.CV{
+    width: 300%;
+}
+.FF{
+    width: 250%;
+}
+#aq{
+    width: 7Z0%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #QS{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #PL{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ #PK{
+     width: 70%;
+     height: 40px;
+     margin-left: 2%;
+ }
+ }
