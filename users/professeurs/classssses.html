@@ -260,7 +260,130 @@
 
                 <div class="col-sm-9 offset-sm-1 selection py-5  ">
 
-
+                  <div class="container">
+                    <div class="row mt-5">
+                      <div class="col-md-4 col-lg-4 col-sm-12 me-5">
+                        <div class="card ">
+                          <a href="classe.html"><img src="classe.PNG" class="card-img-top p-5 mt-2" alt="..."></a>
+                          <div class="card-body">
+                            <h3 class="card-title text-primary text-center">classe</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="card">
+                         <a href=""><img src="Cours.PNG" class="card-img-top p-5" alt="..."></a>
+                          <div class="card-body">
+                            <h3 class="card-title text-primary text-center ">Cours</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="container my-5">
+                    <div class="row">
+                      <div class="col text-primary mt-5">
+                        <a class="text-primary" href=""><h5>Liste des classes</h5></a> 
+                      </div>
+                      <div class="col mt-5 text-center">
+                        <p>Ajouter <i class="fa-solid fa-plus bg-info p-1 ms-2 rounded-circle text-white" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"></i></p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header bg-primary">
+                                <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Eleves de la classe
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-start">
+                                <h5 class="text-start">Ajouter un eleve</h5>
+                                <form class="">
+                                  <h5>Nom*</h5>
+                                  <input class="mb-3 rounded-3" type="text" id="nom">
+                                  <h5>Prenom*</h5>
+                                  <input class="mb-3 rounded-3" type="text" id="prenom">
+                                  <h5>Date et lieu de naissance</h5>
+                                  <input class="mb-3 rounded-3" type="date" id="date">
+                                  <h5>Niveau de classe</h5>
+                                  <select class="rounded-3" id="class" name="class">
+                                    <option value="Seconde">Seconde</option>
+                                    <option value="Premiere">Premiere</option>
+                                    <option value="Terminale">Terminale</option>
+                                  </select>
+                                  <h5>Genre</h5>
+                                  <select class="rounded-3" id="gender" name="gender">
+                                    <option value="garçon">Garçon</option>
+                                    <option value="fille">Fille</option>
+                                  </select>
+                                </form>
+                              </div>
+                              <p class="text-start">*Information obligatoire</p>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ajouter l'élève</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mt-5 text-end">
+                        <button type="button" class="btn btn-primary btn-sm">Export to csv</button>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="row mx-5 pt-3">
+                    <div class="col-md-6 col-lg-4 ps-2  ">
+                      <div class="input-group w-75">
+                        <input type="text" class="form-control" placeholder="Choisir classe">
+                        <span class="input-group-text"><i class="fa-solid fa-sort "></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row pe-1 pt-2 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12"></div>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th class=" pb-3 pt-3">Classe</th>
+                          <th class=" pb-3 pt-3">Matiere</th>
+                          <th class=" pb-3 pt-3">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="table-primary opacity-50">
+                          <td class="pb-3 pt-3"><a class="text-black" href="H">Seconde</a></td>
+                          <td class="pb-3 pt-3"><a class="text-black" href="H">Français</a></td>
+                          <td class="pb-3 pt-3">
+                            <p><i class="fa-regular fa-eye"></i><i class="fa-solid fa-pen ps-3"></i>
+                              <i class="fa-solid fa-trash ps-3"></i>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="pb-3 pt-3"><a class="text-black" href="H">Premiere</a></td>
+                          <td class="pb-3 pt-3"><a class="text-black" href="H">Français</a></td>
+                          <td class="pb-3 pt-3">
+                            <p><i class="fa-regular fa-eye"></i><i class="fa-solid fa-pen ps-3"></i>
+                              <i class="fa-solid fa-trash ps-3"></i>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr class="table-primary opacity-50">
+                          <td class="pb-3 pt-3"><a class="text-black" href="H">Terminale</a></td>
+                          <td class="pb-3 pt-3"> <a class="text-black" href="H">Français</a></td>
+                          <td class="pb-3 pt-3 text-center">
+                            <p><i class="fa-regular fa-eye"></i><i class="fa-solid fa-pen ps-3"></i>
+                              <i class="fa-solid fa-trash ps-3"></i>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
 
                 
 
