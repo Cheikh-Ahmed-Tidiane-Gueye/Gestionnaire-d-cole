@@ -297,9 +297,9 @@ td p, .align2{
 }
 /*----------Alassane Sane-------------*/
 
-.buttonA{
+/* .buttonA{
     margin-left:320px
-  }
+  } */
   .buttonB{
     position: relative;
     left:150px
@@ -329,11 +329,11 @@ td p, .align2{
     } */
   
   @media screen and (max-width:991px) {
-    .buttonA{
+    /* .buttonA{
         position: relative;
         right:300px;
     }
-  
+   */
   }
   tr:nth-child(odd){background-color:  #FBFDFF;}
   /*----------Fin Alassane Sane-------------*/
