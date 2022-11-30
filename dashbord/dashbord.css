@@ -116,8 +116,45 @@ line-height: 17px;
 
 color: #AEAEAE;
 }
-
-
+.tittle h4{
+    
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+.counting p{
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 45px;
+}
+.nb h4{
+    color: #197BBD;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 31.5503px;
+line-height: 38px;
+}
+.nc h4{
+    color: #439A86;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+.nd h4{
+    color: #BB4430;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
 
 @media (min-width:1160px){
 
@@ -183,6 +220,11 @@ display: none;
         width: 80px !important;
         background-color: transparent !important;
     }
+    .test.close{
+       
+        margin-top: 550px;
+       
+     }
 }
 
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
@@ -192,3 +234,64 @@ display: none;
 
 
 /* ===========top c'est parti============ */
+/*----------------partie saliou-----------------*/
+
+.for .put{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+
+}
+.cap-img{
+    border-radius: 50px;
+    width: 60px;
+    margin-bottom: 1px;
+}
+@media screen and (max-width=880) {
+    .for .put{
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+/*---------fin partie saliou----------*/
+
+
+
+
+.entet{
+    color:  #2D9CDB;
+}
+td p, .align2{
+    padding-top: 10px;
+}
+.cub:hover{
+    color: #56CCF2;
+}
+.cuba:hover{
+    color: red;
+}
+.cub i, .cuba i{
+    opacity: 0.4;
+}
+.pb{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.btnn{
+    background-color:  #56CCF2;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+.proff{
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 61px;
+     background: #56CCF2;
+    color: white;
+}

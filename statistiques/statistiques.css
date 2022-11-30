@@ -30,8 +30,9 @@ width: 30px;
     
 }
 body{
-    background: #F5F5F5;
+    background: #FBFCFE;
    
+    overflow-x: hidden;
 }
 a, .nam{
   text-decoration: none; 
@@ -144,7 +145,7 @@ display: none !important;
     display: none !important;
 }
 }
-@media (max-width:450px){
+@media (max-width:575px){
     .flechete{
         display: block !important;
     }
@@ -155,7 +156,13 @@ display: none;
         margin-top: 30px;
         height: 120px !important;
         width: 80px !important;
+        background-color: transparent !important;
     }
+    .test.close{
+       
+        margin-top: 550px;
+       
+     }
 }
 
 /* ======================= fin du css pour le dashbords vous pouvez mettre votre css en bas================= */
