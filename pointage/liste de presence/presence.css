@@ -307,3 +307,6 @@ tr span{
     float: left;
 }
 /* ===========top c'est parti============ */
+tr:nth-child(even){
+    background: #FBFDFF;
+}

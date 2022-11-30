@@ -117,7 +117,7 @@ line-height: 17px;
 color: #AEAEAE;
 }
 /* LOUM CSS */
-.img-fluid{
+.img-fluids{
     width: 50px;
     border-radius: 50%;
 }
@@ -313,3 +313,6 @@ tr span{
 }
 
 /* ===========top c'est parti============ */
+tr:nth-child(even){
+    background: #FBFDFF;
+}
