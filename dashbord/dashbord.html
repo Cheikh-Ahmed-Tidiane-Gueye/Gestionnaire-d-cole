@@ -334,385 +334,396 @@
                       </div>
                     </div>
                   </div>
-                  <div class=" generic container-fluid d-flex justify-content-between ">
-                    <div class="part1">
-                        <div class="dow"> <h5 class="h5a">Liste des eleves</h5></div>
-                        <div class="dow ">
-                            <button type="button" class="btnn ms-2 "><p class="pb pt-2 px-2"> <img class="dir" src="./image/icone3.jpg" alt="image"> Export to CSV</p></button>
-                        </div>
+   
+                  <div class="container">
+                    <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <p class=" text-primary fs-5">Liste des éléves</p>
                     </div>
-                    <div class="col mt-5 text-center">
-                      <p>Ajouter <i class="fa-solid fa-plus bg-info p-1 ms-2 rounded-circle text-white" data-bs-toggle="modal"
-                          data-bs-target="#staticBackdrop"></i></p>
-                      <!-- Modal -->
-                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header bg-primary">
-                              <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Eleves de la classe
-                              </h1>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body text-start">
-                              <h5 class="text-start">Ajouter un eleve</h5>
-                              <form class="">
-                                <h5>Nom*</h5>
-                                <input class="mb-3 rounded-3" type="text" id="nom">
-                                <h5>Prenom*</h5>
-                                <input class="mb-3 rounded-3" type="text" id="prenom">
-                                <h5>Date et lieu de naissance</h5>
-                                <input class="mb-3 rounded-3" type="date" id="date">
-                                <h5>Niveau de classe</h5>
-                                <select class="rounded-3" id="class" name="class">
-                                  <option value="Seconde">Seconde</option>
-                                  <option value="Premiere">Premiere</option>
-                                  <option value="Terminale">Terminale</option>
-                                </select>
-                                <h5>Genre</h5>
-                                <select class="rounded-3" id="gender" name="gender">
-                                  <option value="garçon">Garçon</option>
-                                  <option value="fille">Fille</option>
-                                </select>
-                              </form>
-                            </div>
-                            <p class="text-start">*Information obligatoire</p>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary">Ajouter l'élève</button>
-                            </div>
+                    <div>
+                      <button class="bnt border-0 mb-4 text-start"><img src="image/Group 1931.png" class=" w-75" alt=""></button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn border-0 buttonA" data-bs-toggle="modal" data-bs-target="#exampleModaleee">
+                      Ajouter &nbsp;<img src="image/add_circle.png" class="img-fluid " alt="">
+                    </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModaleee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog  modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header fw-bolder bg-primary text-white">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Eléves de la classe</h1>
                           </div>
+                          <div class="modal-body">
+                            <h1 class="fw-bolder fs-5 ms-4 text-primary mb-4"> Ajouter un éléves</h1>
+                            <div class="container">
+                    <div class="row">
+  
+                      <form> 
+                        <div class="row">
+                        <div class="col-12 col-lg-5 me-5">
+                        <label for="fname">Prénom<span>*</span></label> <br>
+                        <input class="p-2 prenom"  type="text" id="fname" name="fname"><br>
+                      </div>
+  
+                      <div class="col-12 col-lg-5 ms-lg-5">
+                        <label for="lname">Nom<span>*</span></label><br>
+                        <input class="p-2 nom"  type="text" id="lname" name="lname">
+                      </div>
+                    </div>
+                      </form>
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <form>
+                      <div class="me-5">
+                        <label class="mt-4" for="lname">Date de Naissance</span></label><br>
+                        <input class="p-2 date" type="date" id="lname" name="lname">
+                      </div>
+  
+                      <label for="cars" class="mt-4">Niveau de classe <span>*</span></label><br>
+                      <select id="cars" name="cars" class="p-2 selectA">
+                        <option value="volvo">Terminal</option>
+                        <option value="saab">Premier</option>
+                        <option value="fiat">Second</option>
+                      
+                      </select>
+                      <p class="mt-4"><span>*</span>Information obligatoire</p>
+                      </form>
+                    </div>
+                    <div class="col-12 col-lg-6 ">
+  
+  
+                      <label class="ms-lg-4 mt-4" for="cars">Genre</label><br>
+                    <select id="cars" name="cars" class="p-2 ms-lg-4 mb-5">
+                      <option value="volvo">Fille</option>
+                      <option value="saab">Garçon</option>
+                    
+                    </select>
+                    <div class="mt-lg-5">
+                      <button type="button" class="btn btn-info buttonB rounded text-white p-2 fw-bolder ms-5">Ajouter l'éléves</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                            
+                        
                         </div>
                       </div>
                     </div>
-                </div>
-
-                  <div class="container-fluid" style="overflow-x:scroll ;">
-      
-                    <table class=" table table-borderless">
-                      <thead class="entet">
+                  </div>
+                    </div>
+                  </div>
+                  <div class="table-responsive">
+  
+                 
+  
+                    <table class="table align-middle mb-0 bg-white table-borderless">
+                      <thead class="bg-white text-primary">
                         <tr>
-                          <th>Profil</th>
-                          <th>Nom Complet</th>
-                          <th>Mail</th>
-                          <th>Numéro de téléphone</th>
-                          <th>Adresse</th>
-                          <th>Status</th>
-                          <th>Actions</th>
+                          
+                          <td></td>
+                          <td><input type="text" id="disabledTextInput" class="form-control inpute p-2 text-center " > </td>
+                          <td></td>
+                          <td><input type="text" id="disabledTextInput" class="form-control inpute p-2 text-center"  ></td>
+                          <td><input type="text" id="disabledTextInput" class="form-control inpute p-2 text-center"  ></td>
+                          <td><input type="text" id="disabledTextInput" class="form-control inpute p-2 text-center" ></td>
+                          <td></td>
+                        </tr>
+                        <tr class="text-center">
+                          <td >Profile</td>
+                          <td >Full Name</td>
+                          <td >Sexe</td>
+                          <td >Phone Number</td>
+                          <td >Adresse</td>
+                          <td >Class</td>
+                          <td >Actions</td>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image1.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center ">
+                              <img
+                                  src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                                  alt=""
+                                
+                                  class="rounded-circle"
+                                  />
+                             
                             </div>
                           </td>
-                          <td>
-                            <p class=" mb-1">Rémy mendy</p>
+                          <td >
+                            <p class=" mb-1 text-muted ">John Doe</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">rémy@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 700 00 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.anglais</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
+                          <td  class="text-muted">Homme</td>
+                          <td  class="text-muted">+221 78 728 00 00</td>
+  
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Terminal B</td>
+                          <td class="text-center">
+                            
+                           <a href="" > <i class="fa-solid ms-2  fa-eye"></i></a> 
+                           <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                            <a href=""> <i class="fa-solid  ms-2 reseau reseau fa-trash"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a>
                           </td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image2.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Yarha Fall</p>
+                            <p class=" mb-1 text-muted">Alex Ray</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">yarha@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 523 20 80</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.arabe</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Femme</td>
+  
+                          <td  class="text-muted">+221 78 228 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Premier C</td>
+                          
+                            <td class="text-center">
+                          
+                              <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                              <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                               <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                               <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a> </td>
+                        
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image3.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Adamah Ba</p>
+                            <p class=" mb-1 text-muted">Kate Hunington</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">adam@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 700 00 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Grand Yoff</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.EPS</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 78 728 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Second A</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a>
+                            </td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                     
+  
+  
+  
+  
+                        
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image4.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 51.png"
+                                  alt=""
+                                  class="rounded-circle"
+                                  />
+                            
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Rémy mendy</p>
+                            <p class=" mb-1 text-muted">Giggy Jhon</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">rémy@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 724 76 14</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Parcelle</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.espagnol</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 77 700 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Second A</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a></td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image5.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 52.png"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Yarha Fall</p>
+                            <p class=" mb-1 text-muted">Alexis Marr</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">yarha@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 700 00 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.almand</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 78 700 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Terminal B</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a></td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image6.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 53.png"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                              
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Assane Gueye</p>
+                            <p class=" mb-1 text-muted">Nikola varane</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">assan@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 750 10 40</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.phylo</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 78 724 00 00</td>
+                          <td  class="text-muted">Liberté 5</td>
+                          <td  class="text-muted">Premier C</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a> </td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+  
+  
+  
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image7.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 54.png"
+                                  alt=""
+                                  class="rounded-circle"
+                                  />
+                              
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Adamah Fall</p>
+                            <p class=" mb-1 text-muted">Ellene Jacobs</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">adam@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 450 11 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.français</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Femme</td>
+  
+                          <td  class="text-muted">+221 78 500 09 00</td>
+                          <td  class="text-muted">Liberté 5</td>
+                          <td  class="text-muted">Second B</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a></td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image8.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 49.png"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Alexi mendy</p>
+                            <p class=" mb-1 text-muted">jean jaques</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">alex@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 652 47 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Colobane</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Prof HG</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 78 700 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Termina B</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a></td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image9.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 49.png"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Salym seck</p>
+                            <p class=" mb-1 text-muted">Assane Mounfik</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">salym@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 700 00 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Pr.arabe</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td  class="text-muted">Homme</td>
+  
+                          <td  class="text-muted">+221 77 900 00 00</td>
+                          <td  class="text-muted">Liberté 6</td>
+                          <td  class="text-muted">Premier B</td>
+                          <td class="text-center">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a> </td>
                         </tr>
-                        <!----------tr 2-------------->
-                        <tr>
+  
+  
+                        <tr class="text-center">
                           <td>
-                            <div>
-                              <img src="./image/image10.jpg" alt="img"/>                             
+                            <div class="d-flex align-items-center">
+                              <img
+                                  src="image/Ellipse 50.png"
+                                  class="rounded-circle"
+                                  alt=""
+                                  />
+                             
                             </div>
                           </td>
                           <td>
-                            <p class=" mb-1">Sami Diop</p>
+                            <p class=" mb-1 text-muted">Mary Fhalls</p>
                           </td>
-                          <td>
-                            <p class=" mb-1">sami@gmail.com</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">+221 78 761 20 00</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Liberté 6</p>
-                          </td>
-                          <td>
-                            <p class=" mb-1">Prof SVT</p>
-                          </td>
-                          <td>
-                            <div class="align2 d-flex justify-content-around mb-1">
-                              <div class="cub me-2"><i class="fa-solid fa-eye"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-pen"></i></div>
-                              <div class="cuba me-2"><i class="fa-solid fa-trash"></i></div>
-                              <div class="cub me-2"><i class="fa-solid fa-box-archive"></i></div>
-                            </div>
-                          </td>
+                          <td class="text-muted">Femme</td>
+  
+                          <td  class="text-muted">+221 78 408 00 00</td>
+                          <td  class="text-muted">Liberté 5</td>
+                          <td  class="text-muted">Second A</td>
+                          <td class="text-center text-muted">
+                          
+                            <a href="" > <i class="fa-solid  ms-2 fa-eye"></i></a> 
+                            <a href=""> <i class="fa-solid  ms-2 fa-pen"></i></a>
+                             <a href=""> <i class="fa-solid  ms-2 reseau fa-trash"></i></a> 
+                             <a href=""> <i class="fa-solid  ms-2 fa-box-archive"></i></a> </td>
                         </tr>
                       </tbody>
                     </table>
-                    </div>
+                  </div>
                 
 
                  

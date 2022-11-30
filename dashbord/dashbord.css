@@ -295,3 +295,45 @@ td p, .align2{
      background: #56CCF2;
     color: white;
 }
+/*----------Alassane Sane-------------*/
+
+.buttonA{
+    margin-left:320px
+  }
+  .buttonB{
+    position: relative;
+    left:150px
+  }
+  label>span,p>span{
+    font-size:15px ;color: red;
+  }
+  img.rounded-circle{width: 45px; height: 45px}
+  select.selectA, input.prenom, input.nom,input.date {
+    width: 300px;
+  }
+  input.inpute{
+    width: 115px
+  }
+  a>i{
+    text-decoration: none;
+  }
+ 
+  .reseau:hover{
+    color: red;
+  }
+  /* a.fa-eye:hover, a.fa-pen:hover, a.fa-box-archive:hover{
+  color:rgb(0, 106, 255);
+  }
+  a.fa-trash:hover{
+    color:rgb(238, 37, 37);
+    } */
+  
+  @media screen and (max-width:991px) {
+    .buttonA{
+        position: relative;
+        right:300px;
+    }
+  
+  }
+  tr:nth-child(odd){background-color:  #FBFDFF;}
+  /*----------Fin Alassane Sane-------------*/
