@@ -9,6 +9,12 @@
     Height :20px;
     
 } 
+.tri{
+    background-image: url('./image/people.png');
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
 .selection{
     margin-top: 100px;
 }
@@ -32,7 +38,6 @@ width: 30px;
 body{
     background: #FBFCFE;
    
-    overflow-x: hidden;
 }
 a, .nam{
   text-decoration: none; 
@@ -90,6 +95,26 @@ width: 115px;
 }
 .test.close .text{
    opacity: 0;
+}
+.vegeta{
+    background-image: url('./image/LS.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 265.43px;
+height: 180.17px !important; */
+border-radius: 26px;
+}
+.trunk p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #AEAEAE;
 }
 
 
@@ -170,8 +195,8 @@ display: none;
 
 
 
-/* ===========top c'est parti============ */
 
+/* ===========top c'est parti============ */
 /*-------Sarifou----------*/
 
 .francais{
@@ -220,3 +245,4 @@ display: none;
         text-align: center;
     }
 }
+
